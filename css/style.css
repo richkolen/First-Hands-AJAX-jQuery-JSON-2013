@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    background-color: grey;
+}
+
+.teams, .play
+{
+    width: 400px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.play
+{
+    float: left;
+}
+
+.matches, .played
+{
+    height: 40px;
+    background-color: brown;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+.played p
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.matches p
+{
+    text-align: center;
+}
+
+.content-form
+{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form
+{
+    background-color: brown;
+    width: 400px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+form p,
+{
+    margin-top: 10px;
+}
+
+#home-goals, #away-goals, #spectators, #home-score1, #home-minute1, #away-score1, #away-minute1,  #home-score2, #home-minute2, #away-score2, #away-minute2,  #home-score3, #home-minute3, #away-score3, #away-minute3
+{
+    margin-left: 90px;
+    margin-top: 15px;
+    height: 25px;
+    width: 90px;
+}
+
+#away-goals
+{
+    margin-left: 8px;
+}
+
+#spectators
+{
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+#home-score1, #home-score2, #home-score3
+{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#home-minute1, #away-minute1, #home-minute2, #away-minute2, #home-minute3, #away-minute3
+{
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#away-score1, #away-score2, #away-score3
+{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.set-button
+{
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.content-send
+{
+    float: left;
+    margin-left: 220px;
+    margin-top: 150px;
+}
+
+h3
+{
+    color: white;
+    text-align: center;
+}
